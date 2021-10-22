@@ -1,14 +1,25 @@
 # linkedin_api
 
-👨‍💼 Python Wrapper for the Linkedin API
+<h3 align="center">Sponsors</h3>
+
+<p align="center">
+  <a href="https://iscraper.io/" target="_blank">
+    <img width="150px" src="https://iscraper.io/static/front/images/logo-dark.png" alt="serpsbot">
+  </a>
+</p>
+
+<h5 align="center"><a href="https://github.com/sponsors/tomquirk/sponsorships?sponsor=tomquirk&tier_id=96653&preview=false" target="_blank">Become a sponsor</a></h5>
+
+---
+
+👨‍💼 Linkedin API for Python
 
 [![Build Status](https://travis-ci.com/tomquirk/linkedin-api.svg?branch=master)](https://travis-ci.com/tomquirk/linkedin-api)
-
-[![buymeacoffee: https://www.buymeacoffee.com/tomquirk](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/tomquirk)
+[![Documentation Status](https://readthedocs.org/projects/linkedin-api/badge/?version=latest)](https://linkedin-api.readthedocs.io/en/latest/?badge=latest)
 
 > No "official" API access required - just use a valid Linkedin account!
 
-Programmatically send messages, perform searches, get profile data and more, all with a regular Linkedin user account!
+Programmatically send messages, get jobs, search profiles and more, all with a regular Linkedin user account!
 
 Before using this project, please consult the [Terms and Conditions](#terms-and-conditions) and [Legal Notice](#legal).
 
@@ -28,7 +39,7 @@ pip3 install linkedin-api~=2.0.0a
 from linkedin_api import Linkedin
 
 # Authenticate using any Linkedin account credentials
-api = Linkedin('reedhoffman@linkedin.com', 'iheartmicrosoft')
+api = Linkedin('reedhoffman@linkedin.com', '*******')
 
 # GET a profile
 profile = api.get_profile('billy-g')
@@ -42,7 +53,7 @@ connections = api.get_profile_connections('1234asc12304')
 
 ## Documentation
 
-For a complete reference documentation, see the [DOCS.md](https://github.com/tomquirk/linkedin-api/blob/master/DOCS.md)
+For a complete reference documentation, see the [documentation website](https://linkedin-api.readthedocs.io/).
 
 ## Overview
 
